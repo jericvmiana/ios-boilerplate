@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353750C42BDF87AF0021A263 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		353750C62BDF87AF0021A263 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		353750C82BDF87B10021A263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		353750CB2BDF87B10021A263 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		353750DE2BDF8A7B0021A263 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		353750EB2BDF95B00021A263 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 353750EA2BDF95B00021A263 /* Alamofire */; };
+		353750EE2BDF95B80021A263 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 353750ED2BDF95B80021A263 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		353750C02BDF87AF0021A263 /* polaris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polaris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353750C32BDF87AF0021A263 /* polarisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polarisApp.swift; sourceTree = "<group>"; };
+		353750C52BDF87AF0021A263 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		353750C72BDF87B10021A263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353750CA2BDF87B10021A263 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		353750DD2BDF8A7B0021A263 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		353750E62BDF8F2A0021A263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353750BD2BDF87AF0021A263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353750EE2BDF95B80021A263 /* Kingfisher in Frameworks */,
+				353750EB2BDF95B00021A263 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353750B72BDF87AF0021A263 = {
+			isa = PBXGroup;
+			children = (
+				353750C22BDF87AF0021A263 /* polaris */,
+				353750C12BDF87AF0021A263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353750C12BDF87AF0021A263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353750C02BDF87AF0021A263 /* polaris.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353750C22BDF87AF0021A263 /* polaris */ = {
+			isa = PBXGroup;
+			children = (
+				353750E62BDF8F2A0021A263 /* Info.plist */,
+				353750C72BDF87B10021A263 /* Assets.xcassets */,
+				353750C32BDF87AF0021A263 /* polarisApp.swift */,
+				353750D42BDF88EE0021A263 /* Config */,
+				353750D12BDF88330021A263 /* Modules */,
+				353750D52BDF88F30021A263 /* Resources */,
+				353750D22BDF88D40021A263 /* Utils */,
+				353750D32BDF88D80021A263 /* Vendor */,
+				353750C92BDF87B10021A263 /* Preview Content */,
+			);
+			path = polaris;
+			sourceTree = "<group>";
+		};
+		353750C92BDF87B10021A263 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				353750CA2BDF87B10021A263 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		353750D12BDF88330021A263 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				353750DB2BDF89C30021A263 /* Core */,
+				353750D62BDF89430021A263 /* Map */,
+				353750DC2BDF89C70021A263 /* Shared */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		353750D22BDF88D40021A263 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		353750D32BDF88D80021A263 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		353750D42BDF88EE0021A263 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		353750D52BDF88F30021A263 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		353750D62BDF89430021A263 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				353750D82BDF89710021A263 /* UI */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		353750D72BDF89680021A263 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				353750DA2BDF89AA0021A263 /* Components */,
+				353750D92BDF897D0021A263 /* Main */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		353750D82BDF89710021A263 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				353750D72BDF89680021A263 /* Scene */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		353750D92BDF897D0021A263 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				353750C52BDF87AF0021A263 /* MapView.swift */,
+				353750DD2BDF8A7B0021A263 /* MapViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		353750DA2BDF89AA0021A263 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		353750DB2BDF89C30021A263 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		353750DC2BDF89C70021A263 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353750BF2BDF87AF0021A263 /* polaris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353750CE2BDF87B10021A263 /* Build configuration list for PBXNativeTarget "polaris" */;
+			buildPhases = (
+				353750BC2BDF87AF0021A263 /* Sources */,
+				353750BD2BDF87AF0021A263 /* Frameworks */,
+				353750BE2BDF87AF0021A263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = polaris;
+			packageProductDependencies = (
+				353750EA2BDF95B00021A263 /* Alamofire */,
+				353750ED2BDF95B80021A263 /* Kingfisher */,
+			);
+			productName = polaris;
+			productReference = 353750C02BDF87AF0021A263 /* polaris.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353750B82BDF87AF0021A263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					353750BF2BDF87AF0021A263 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 353750BB2BDF87AF0021A263 /* Build configuration list for PBXProject "polaris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353750B72BDF87AF0021A263;
+			packageReferences = (
+				353750E92BDF95B00021A263 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				353750EC2BDF95B80021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 353750C12BDF87AF0021A263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353750BF2BDF87AF0021A263 /* polaris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353750BE2BDF87AF0021A263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353750CB2BDF87B10021A263 /* Preview Assets.xcassets in Resources */,
+				353750C82BDF87B10021A263 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353750BC2BDF87AF0021A263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353750C62BDF87AF0021A263 /* MapView.swift in Sources */,
+				353750C42BDF87AF0021A263 /* polarisApp.swift in Sources */,
+				353750DE2BDF8A7B0021A263 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		353750CC2BDF87B10021A263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		353750CD2BDF87B10021A263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		353750CF2BDF87B10021A263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = polaris/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polaris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353750D02BDF87B10021A263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = polaris/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polaris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353750BB2BDF87AF0021A263 /* Build configuration list for PBXProject "polaris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353750CC2BDF87B10021A263 /* Debug */,
+				353750CD2BDF87B10021A263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353750CE2BDF87B10021A263 /* Build configuration list for PBXNativeTarget "polaris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353750CF2BDF87B10021A263 /* Debug */,
+				353750D02BDF87B10021A263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		353750E92BDF95B00021A263 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		353750EC2BDF95B80021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		353750EA2BDF95B00021A263 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353750E92BDF95B00021A263 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		353750ED2BDF95B80021A263 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353750EC2BDF95B80021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 353750B82BDF87AF0021A263 /* Project object */;
+}
