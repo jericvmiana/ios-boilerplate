@@ -12,8 +12,9 @@
 		353750C82BDF87B10021A263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
 		353750CB2BDF87B10021A263 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
 		353750DE2BDF8A7B0021A263 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
-		353750EB2BDF95B00021A263 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 353750EA2BDF95B00021A263 /* Alamofire */; };
-		353750EE2BDF95B80021A263 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 353750ED2BDF95B80021A263 /* Kingfisher */; };
+		353750F32BDFB02E0021A263 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 353750F22BDFB02E0021A263 /* MapboxMaps */; };
+		353750F62BDFB0C50021A263 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 353750F52BDFB0C50021A263 /* Kingfisher */; };
+		353750FC2BDFB0EC0021A263 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 353750FB2BDFB0EC0021A263 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +32,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353750EE2BDF95B80021A263 /* Kingfisher in Frameworks */,
-				353750EB2BDF95B00021A263 /* Alamofire in Frameworks */,
+				353750FC2BDFB0EC0021A263 /* Alamofire in Frameworks */,
+				353750F62BDFB0C50021A263 /* Kingfisher in Frameworks */,
+				353750F32BDFB02E0021A263 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +191,9 @@
 			);
 			name = polaris;
 			packageProductDependencies = (
-				353750EA2BDF95B00021A263 /* Alamofire */,
-				353750ED2BDF95B80021A263 /* Kingfisher */,
+				353750F22BDFB02E0021A263 /* MapboxMaps */,
+				353750F52BDFB0C50021A263 /* Kingfisher */,
+				353750FB2BDFB0EC0021A263 /* Alamofire */,
 			);
 			productName = polaris;
 			productReference = 353750C02BDF87AF0021A263 /* polaris.app */;
@@ -221,8 +224,9 @@
 			);
 			mainGroup = 353750B72BDF87AF0021A263;
 			packageReferences = (
-				353750E92BDF95B00021A263 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				353750EC2BDF95B80021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				353750F12BDFB02E0021A263 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				353750F42BDFB0C50021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				353750FA2BDFB0EC0021A263 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 353750C12BDF87AF0021A263 /* Products */;
 			projectDirPath = "";
@@ -460,15 +464,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		353750E92BDF95B00021A263 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		353750F12BDFB02E0021A263 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.9.1;
+				kind = exactVersion;
+				version = 11.3.0;
 			};
 		};
-		353750EC2BDF95B80021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		353750F42BDFB0C50021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -476,18 +480,31 @@
 				minimumVersion = 7.11.0;
 			};
 		};
+		353750FA2BDFB0EC0021A263 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		353750EA2BDF95B00021A263 /* Alamofire */ = {
+		353750F22BDFB02E0021A263 /* MapboxMaps */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 353750E92BDF95B00021A263 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
+			package = 353750F12BDFB02E0021A263 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
 		};
-		353750ED2BDF95B80021A263 /* Kingfisher */ = {
+		353750F52BDFB0C50021A263 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 353750EC2BDF95B80021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = 353750F42BDFB0C50021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		353750FB2BDFB0EC0021A263 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353750FA2BDFB0EC0021A263 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
