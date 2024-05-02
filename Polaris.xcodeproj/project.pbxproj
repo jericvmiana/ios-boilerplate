@@ -15,6 +15,87 @@
 		353750F32BDFB02E0021A263 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 353750F22BDFB02E0021A263 /* MapboxMaps */; };
 		353750F62BDFB0C50021A263 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 353750F52BDFB0C50021A263 /* Kingfisher */; };
 		353750FC2BDFB0EC0021A263 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 353750FB2BDFB0EC0021A263 /* Alamofire */; };
+		5E190B7E2BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B7F2BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B802BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B812BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B822BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B832BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B842BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B852BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B862BE3E75900402FEB /* IndianDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B682BE3E75900402FEB /* IndianDev-Info.plist */; };
+		5E190B872BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B882BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B892BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B8A2BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B8B2BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B8C2BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B8D2BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B8E2BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B8F2BE3E75900402FEB /* Indian-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6A2BE3E75900402FEB /* Indian-Info.plist */; };
+		5E190B902BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B912BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B922BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B932BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B942BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B952BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B962BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B972BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B982BE3E75900402FEB /* IndianStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */; };
+		5E190B992BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190B9A2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190B9B2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190B9C2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190B9D2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190B9E2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190B9F2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190BA02BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190BA12BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */; };
+		5E190BA22BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BA32BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BA42BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BA52BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BA62BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BA72BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BA82BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BA92BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BAA2BE3E75900402FEB /* Slingshot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B712BE3E75900402FEB /* Slingshot-Info.plist */; };
+		5E190BAB2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BAC2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BAD2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BAE2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BAF2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BB02BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BB12BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BB22BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BB32BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */; };
+		5E190BB42BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BB52BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BB62BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BB72BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BB82BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BB92BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BBA2BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BBB2BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BBC2BE3E75900402FEB /* PolarisDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */; };
+		5E190BBD2BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BBE2BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BBF2BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BC02BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BC12BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BC22BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BC32BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BC42BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BC52BE3E75900402FEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B782BE3E75900402FEB /* Info.plist */; };
+		5E190BC62BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
+		5E190BC72BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
+		5E190BC82BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
+		5E190BC92BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
+		5E190BCA2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
+		5E190BCB2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
+		5E190BCC2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
+		5E190BCD2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
+		5E190BCE2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */; };
 		5EC6ECCA2BE3C6BD00FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
 		5EC6ECCB2BE3C6BD00FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
 		5EC6ECCC2BE3C6BD00FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
@@ -88,23 +169,23 @@
 		353750C72BDF87B10021A263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		353750CA2BDF87B10021A263 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		353750DD2BDF8A7B0021A263 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
-		353750E62BDF8F2A0021A263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E190B682BE3E75900402FEB /* IndianDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IndianDev-Info.plist"; sourceTree = "<group>"; };
+		5E190B6A2BE3E75900402FEB /* Indian-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Indian-Info.plist"; sourceTree = "<group>"; };
+		5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IndianStaging-Info.plist"; sourceTree = "<group>"; };
+		5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SlingshotDev-Info.plist"; sourceTree = "<group>"; };
+		5E190B712BE3E75900402FEB /* Slingshot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Slingshot-Info.plist"; sourceTree = "<group>"; };
+		5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SlingshotStaging-Info.plist"; sourceTree = "<group>"; };
+		5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PolarisDev-Info.plist"; sourceTree = "<group>"; };
+		5E190B782BE3E75900402FEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PolarisStaging-Info.plist"; sourceTree = "<group>"; };
 		5EC6ECD72BE3C6BD00FFD7F6 /* Polaris-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polaris-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC6ECD82BE3C6BD00FFD7F6 /* PolarisStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PolarisStaging-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/PolarisStaging-Info.plist"; sourceTree = "<absolute>"; };
 		5EC6ECEE2BE3C73600FFD7F6 /* Polaris-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polaris-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC6ECEF2BE3C73600FFD7F6 /* PolarisDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PolarisDev-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/PolarisDev-Info.plist"; sourceTree = "<absolute>"; };
 		5EC6ED052BE3C81100FFD7F6 /* Slingshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slingshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC6ED062BE3C81100FFD7F6 /* Slingshot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Slingshot-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/Slingshot-Info.plist"; sourceTree = "<absolute>"; };
 		5EC6ED1C2BE3C86E00FFD7F6 /* Slingshot-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slingshot-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC6ED1D2BE3C86E00FFD7F6 /* SlingshotStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SlingshotStaging-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/SlingshotStaging-Info.plist"; sourceTree = "<absolute>"; };
 		5EC6ED332BE3C88700FFD7F6 /* Slingshot-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slingshot-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC6ED342BE3C88700FFD7F6 /* SlingshotDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SlingshotDev-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/SlingshotDev-Info.plist"; sourceTree = "<absolute>"; };
 		5EC6ED4A2BE3C8EC00FFD7F6 /* Indian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indian.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC6ED4B2BE3C8EC00FFD7F6 /* Indian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Indian-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/Indian-Info.plist"; sourceTree = "<absolute>"; };
 		5EC6ED612BE3C94B00FFD7F6 /* Indian-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indian-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC6ED622BE3C94B00FFD7F6 /* IndianStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IndianStaging-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/IndianStaging-Info.plist"; sourceTree = "<absolute>"; };
 		5EC6ED782BE3C9B500FFD7F6 /* Indian-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indian-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC6ED792BE3C9B500FFD7F6 /* IndianDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IndianDev-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/IndianDev-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,7 +309,7 @@
 		353750C22BDF87AF0021A263 /* polaris */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED862BE3CBB100FFD7F6 /* Config */,
+				5E190B7D2BE3E75900402FEB /* Config */,
 				353750C72BDF87B10021A263 /* Assets.xcassets */,
 				353750C32BDF87AF0021A263 /* polarisApp.swift */,
 				353750D12BDF88330021A263 /* Modules */,
@@ -334,114 +415,114 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		5EC6ED7A2BE3CBB100FFD7F6 /* Dev */ = {
+		5E190B692BE3E75900402FEB /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED792BE3C9B500FFD7F6 /* IndianDev-Info.plist */,
+				5E190B682BE3E75900402FEB /* IndianDev-Info.plist */,
 			);
 			path = Dev;
 			sourceTree = "<group>";
 		};
-		5EC6ED7B2BE3CBB100FFD7F6 /* Prod */ = {
+		5E190B6B2BE3E75900402FEB /* Prod */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED4B2BE3C8EC00FFD7F6 /* Indian-Info.plist */,
+				5E190B6A2BE3E75900402FEB /* Indian-Info.plist */,
 			);
 			path = Prod;
 			sourceTree = "<group>";
 		};
-		5EC6ED7C2BE3CBB100FFD7F6 /* Staging */ = {
+		5E190B6D2BE3E75900402FEB /* Staging */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED622BE3C94B00FFD7F6 /* IndianStaging-Info.plist */,
+				5E190B6C2BE3E75900402FEB /* IndianStaging-Info.plist */,
 			);
 			path = Staging;
 			sourceTree = "<group>";
 		};
-		5EC6ED7D2BE3CBB100FFD7F6 /* IND */ = {
+		5E190B6E2BE3E75900402FEB /* IND */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED7A2BE3CBB100FFD7F6 /* Dev */,
-				5EC6ED7B2BE3CBB100FFD7F6 /* Prod */,
-				5EC6ED7C2BE3CBB100FFD7F6 /* Staging */,
+				5E190B692BE3E75900402FEB /* Dev */,
+				5E190B6B2BE3E75900402FEB /* Prod */,
+				5E190B6D2BE3E75900402FEB /* Staging */,
 			);
 			path = IND;
 			sourceTree = "<group>";
 		};
-		5EC6ED7E2BE3CBB100FFD7F6 /* Dev */ = {
+		5E190B702BE3E75900402FEB /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED342BE3C88700FFD7F6 /* SlingshotDev-Info.plist */,
+				5E190B6F2BE3E75900402FEB /* SlingshotDev-Info.plist */,
 			);
 			path = Dev;
 			sourceTree = "<group>";
 		};
-		5EC6ED7F2BE3CBB100FFD7F6 /* Prod */ = {
+		5E190B722BE3E75900402FEB /* Prod */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED062BE3C81100FFD7F6 /* Slingshot-Info.plist */,
+				5E190B712BE3E75900402FEB /* Slingshot-Info.plist */,
 			);
 			path = Prod;
 			sourceTree = "<group>";
 		};
-		5EC6ED802BE3CBB100FFD7F6 /* Staging */ = {
+		5E190B742BE3E75900402FEB /* Staging */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED1D2BE3C86E00FFD7F6 /* SlingshotStaging-Info.plist */,
+				5E190B732BE3E75900402FEB /* SlingshotStaging-Info.plist */,
 			);
 			path = Staging;
 			sourceTree = "<group>";
 		};
-		5EC6ED812BE3CBB100FFD7F6 /* SLG */ = {
+		5E190B752BE3E75900402FEB /* SLG */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED7E2BE3CBB100FFD7F6 /* Dev */,
-				5EC6ED7F2BE3CBB100FFD7F6 /* Prod */,
-				5EC6ED802BE3CBB100FFD7F6 /* Staging */,
+				5E190B702BE3E75900402FEB /* Dev */,
+				5E190B722BE3E75900402FEB /* Prod */,
+				5E190B742BE3E75900402FEB /* Staging */,
 			);
 			path = SLG;
 			sourceTree = "<group>";
 		};
-		5EC6ED822BE3CBB100FFD7F6 /* Dev */ = {
+		5E190B772BE3E75900402FEB /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ECEF2BE3C73600FFD7F6 /* PolarisDev-Info.plist */,
+				5E190B762BE3E75900402FEB /* PolarisDev-Info.plist */,
 			);
 			path = Dev;
 			sourceTree = "<group>";
 		};
-		5EC6ED832BE3CBB100FFD7F6 /* Prod */ = {
+		5E190B792BE3E75900402FEB /* Prod */ = {
 			isa = PBXGroup;
 			children = (
-				353750E62BDF8F2A0021A263 /* Info.plist */,
+				5E190B782BE3E75900402FEB /* Info.plist */,
 			);
 			path = Prod;
 			sourceTree = "<group>";
 		};
-		5EC6ED842BE3CBB100FFD7F6 /* Staging */ = {
+		5E190B7B2BE3E75900402FEB /* Staging */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ECD82BE3C6BD00FFD7F6 /* PolarisStaging-Info.plist */,
+				5E190B7A2BE3E75900402FEB /* PolarisStaging-Info.plist */,
 			);
 			path = Staging;
 			sourceTree = "<group>";
 		};
-		5EC6ED852BE3CBB100FFD7F6 /* SNORV */ = {
+		5E190B7C2BE3E75900402FEB /* SNORV */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED822BE3CBB100FFD7F6 /* Dev */,
-				5EC6ED832BE3CBB100FFD7F6 /* Prod */,
-				5EC6ED842BE3CBB100FFD7F6 /* Staging */,
+				5E190B772BE3E75900402FEB /* Dev */,
+				5E190B792BE3E75900402FEB /* Prod */,
+				5E190B7B2BE3E75900402FEB /* Staging */,
 			);
 			path = SNORV;
 			sourceTree = "<group>";
 		};
-		5EC6ED862BE3CBB100FFD7F6 /* Config */ = {
+		5E190B7D2BE3E75900402FEB /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				5EC6ED7D2BE3CBB100FFD7F6 /* IND */,
-				5EC6ED812BE3CBB100FFD7F6 /* SLG */,
-				5EC6ED852BE3CBB100FFD7F6 /* SNORV */,
+				5E190B6E2BE3E75900402FEB /* IND */,
+				5E190B752BE3E75900402FEB /* SLG */,
+				5E190B7C2BE3E75900402FEB /* SNORV */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -698,8 +779,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BA22BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				353750CB2BDF87B10021A263 /* Preview Assets.xcassets in Resources */,
+				5E190BB42BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				353750C82BDF87B10021A263 /* Assets.xcassets in Resources */,
+				5E190B992BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B7E2BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B872BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BAB2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BC62BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BBD2BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B902BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,8 +797,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BA32BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				5EC6ECD22BE3C6BD00FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5E190BB52BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				5EC6ECD32BE3C6BD00FFD7F6 /* Assets.xcassets in Resources */,
+				5E190B9A2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B7F2BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B882BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BAC2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BC72BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BBE2BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B912BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,8 +815,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BA42BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				5EC6ECE92BE3C73600FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5E190BB62BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				5EC6ECEA2BE3C73600FFD7F6 /* Assets.xcassets in Resources */,
+				5E190B9B2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B802BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B892BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BAD2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BC82BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BBF2BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B922BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,8 +833,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BA52BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				5EC6ED002BE3C81100FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5E190BB72BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				5EC6ED012BE3C81100FFD7F6 /* Assets.xcassets in Resources */,
+				5E190B9C2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B812BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B8A2BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BAE2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BC92BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BC02BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B932BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,8 +851,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BA62BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				5EC6ED172BE3C86E00FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5E190BB82BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				5EC6ED182BE3C86E00FFD7F6 /* Assets.xcassets in Resources */,
+				5E190B9D2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B822BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B8B2BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BAF2BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BCA2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BC12BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B942BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,8 +869,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BA72BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				5EC6ED2E2BE3C88700FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5E190BB92BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				5EC6ED2F2BE3C88700FFD7F6 /* Assets.xcassets in Resources */,
+				5E190B9E2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B832BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B8C2BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BB02BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BCB2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BC22BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B952BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,8 +887,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BA82BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				5EC6ED452BE3C8EC00FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5E190BBA2BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				5EC6ED462BE3C8EC00FFD7F6 /* Assets.xcassets in Resources */,
+				5E190B9F2BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B842BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B8D2BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BB12BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BCC2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BC32BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B962BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,8 +905,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BA92BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				5EC6ED5C2BE3C94B00FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5E190BBB2BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				5EC6ED5D2BE3C94B00FFD7F6 /* Assets.xcassets in Resources */,
+				5E190BA02BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B852BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B8E2BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BB22BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BCD2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BC42BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B972BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,8 +923,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E190BAA2BE3E75900402FEB /* Slingshot-Info.plist in Resources */,
 				5EC6ED732BE3C9B500FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5E190BBC2BE3E75900402FEB /* PolarisDev-Info.plist in Resources */,
 				5EC6ED742BE3C9B500FFD7F6 /* Assets.xcassets in Resources */,
+				5E190BA12BE3E75900402FEB /* SlingshotDev-Info.plist in Resources */,
+				5E190B862BE3E75900402FEB /* IndianDev-Info.plist in Resources */,
+				5E190B8F2BE3E75900402FEB /* Indian-Info.plist in Resources */,
+				5E190BB32BE3E75900402FEB /* SlingshotStaging-Info.plist in Resources */,
+				5E190BCE2BE3E75900402FEB /* PolarisStaging-Info.plist in Resources */,
+				5E190BC52BE3E75900402FEB /* Info.plist in Resources */,
+				5E190B982BE3E75900402FEB /* IndianStaging-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
