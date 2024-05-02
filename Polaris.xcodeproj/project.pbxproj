@@ -1,0 +1,1986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353750C42BDF87AF0021A263 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		353750C62BDF87AF0021A263 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		353750C82BDF87B10021A263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		353750CB2BDF87B10021A263 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		353750DE2BDF8A7B0021A263 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		353750F32BDFB02E0021A263 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 353750F22BDFB02E0021A263 /* MapboxMaps */; };
+		353750F62BDFB0C50021A263 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 353750F52BDFB0C50021A263 /* Kingfisher */; };
+		353750FC2BDFB0EC0021A263 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 353750FB2BDFB0EC0021A263 /* Alamofire */; };
+		5EC6ECCA2BE3C6BD00FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		5EC6ECCB2BE3C6BD00FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		5EC6ECCC2BE3C6BD00FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		5EC6ECCE2BE3C6BD00FFD7F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECC72BE3C6BD00FFD7F6 /* Alamofire */; };
+		5EC6ECCF2BE3C6BD00FFD7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECC52BE3C6BD00FFD7F6 /* Kingfisher */; };
+		5EC6ECD02BE3C6BD00FFD7F6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECC32BE3C6BD00FFD7F6 /* MapboxMaps */; };
+		5EC6ECD22BE3C6BD00FFD7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		5EC6ECD32BE3C6BD00FFD7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		5EC6ECE12BE3C73600FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		5EC6ECE22BE3C73600FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		5EC6ECE32BE3C73600FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		5EC6ECE52BE3C73600FFD7F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECDE2BE3C73600FFD7F6 /* Alamofire */; };
+		5EC6ECE62BE3C73600FFD7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECDC2BE3C73600FFD7F6 /* Kingfisher */; };
+		5EC6ECE72BE3C73600FFD7F6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECDA2BE3C73600FFD7F6 /* MapboxMaps */; };
+		5EC6ECE92BE3C73600FFD7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		5EC6ECEA2BE3C73600FFD7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		5EC6ECF82BE3C81100FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		5EC6ECF92BE3C81100FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		5EC6ECFA2BE3C81100FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		5EC6ECFC2BE3C81100FFD7F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECF52BE3C81100FFD7F6 /* Alamofire */; };
+		5EC6ECFD2BE3C81100FFD7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECF32BE3C81100FFD7F6 /* Kingfisher */; };
+		5EC6ECFE2BE3C81100FFD7F6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ECF12BE3C81100FFD7F6 /* MapboxMaps */; };
+		5EC6ED002BE3C81100FFD7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		5EC6ED012BE3C81100FFD7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		5EC6ED0F2BE3C86E00FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		5EC6ED102BE3C86E00FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		5EC6ED112BE3C86E00FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		5EC6ED132BE3C86E00FFD7F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED0C2BE3C86E00FFD7F6 /* Alamofire */; };
+		5EC6ED142BE3C86E00FFD7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED0A2BE3C86E00FFD7F6 /* Kingfisher */; };
+		5EC6ED152BE3C86E00FFD7F6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED082BE3C86E00FFD7F6 /* MapboxMaps */; };
+		5EC6ED172BE3C86E00FFD7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		5EC6ED182BE3C86E00FFD7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		5EC6ED262BE3C88700FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		5EC6ED272BE3C88700FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		5EC6ED282BE3C88700FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		5EC6ED2A2BE3C88700FFD7F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED232BE3C88700FFD7F6 /* Alamofire */; };
+		5EC6ED2B2BE3C88700FFD7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED212BE3C88700FFD7F6 /* Kingfisher */; };
+		5EC6ED2C2BE3C88700FFD7F6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED1F2BE3C88700FFD7F6 /* MapboxMaps */; };
+		5EC6ED2E2BE3C88700FFD7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		5EC6ED2F2BE3C88700FFD7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		5EC6ED3D2BE3C8EC00FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		5EC6ED3E2BE3C8EC00FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		5EC6ED3F2BE3C8EC00FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		5EC6ED412BE3C8EC00FFD7F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED3A2BE3C8EC00FFD7F6 /* Alamofire */; };
+		5EC6ED422BE3C8EC00FFD7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED382BE3C8EC00FFD7F6 /* Kingfisher */; };
+		5EC6ED432BE3C8EC00FFD7F6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED362BE3C8EC00FFD7F6 /* MapboxMaps */; };
+		5EC6ED452BE3C8EC00FFD7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		5EC6ED462BE3C8EC00FFD7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		5EC6ED542BE3C94B00FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		5EC6ED552BE3C94B00FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		5EC6ED562BE3C94B00FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		5EC6ED582BE3C94B00FFD7F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED512BE3C94B00FFD7F6 /* Alamofire */; };
+		5EC6ED592BE3C94B00FFD7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED4F2BE3C94B00FFD7F6 /* Kingfisher */; };
+		5EC6ED5A2BE3C94B00FFD7F6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED4D2BE3C94B00FFD7F6 /* MapboxMaps */; };
+		5EC6ED5C2BE3C94B00FFD7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		5EC6ED5D2BE3C94B00FFD7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+		5EC6ED6B2BE3C9B500FFD7F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C52BDF87AF0021A263 /* MapView.swift */; };
+		5EC6ED6C2BE3C9B500FFD7F6 /* polarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750C32BDF87AF0021A263 /* polarisApp.swift */; };
+		5EC6ED6D2BE3C9B500FFD7F6 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353750DD2BDF8A7B0021A263 /* MapViewModel.swift */; };
+		5EC6ED6F2BE3C9B500FFD7F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED682BE3C9B500FFD7F6 /* Alamofire */; };
+		5EC6ED702BE3C9B500FFD7F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED662BE3C9B500FFD7F6 /* Kingfisher */; };
+		5EC6ED712BE3C9B500FFD7F6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5EC6ED642BE3C9B500FFD7F6 /* MapboxMaps */; };
+		5EC6ED732BE3C9B500FFD7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750CA2BDF87B10021A263 /* Preview Assets.xcassets */; };
+		5EC6ED742BE3C9B500FFD7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353750C72BDF87B10021A263 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		353750C02BDF87AF0021A263 /* Polaris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polaris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353750C32BDF87AF0021A263 /* polarisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polarisApp.swift; sourceTree = "<group>"; };
+		353750C52BDF87AF0021A263 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		353750C72BDF87B10021A263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353750CA2BDF87B10021A263 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		353750DD2BDF8A7B0021A263 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		353750E62BDF8F2A0021A263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC6ECD72BE3C6BD00FFD7F6 /* Polaris-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polaris-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6ECD82BE3C6BD00FFD7F6 /* PolarisStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PolarisStaging-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/PolarisStaging-Info.plist"; sourceTree = "<absolute>"; };
+		5EC6ECEE2BE3C73600FFD7F6 /* Polaris-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polaris-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6ECEF2BE3C73600FFD7F6 /* PolarisDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PolarisDev-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/PolarisDev-Info.plist"; sourceTree = "<absolute>"; };
+		5EC6ED052BE3C81100FFD7F6 /* Slingshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slingshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6ED062BE3C81100FFD7F6 /* Slingshot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Slingshot-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/Slingshot-Info.plist"; sourceTree = "<absolute>"; };
+		5EC6ED1C2BE3C86E00FFD7F6 /* Slingshot-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slingshot-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6ED1D2BE3C86E00FFD7F6 /* SlingshotStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SlingshotStaging-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/SlingshotStaging-Info.plist"; sourceTree = "<absolute>"; };
+		5EC6ED332BE3C88700FFD7F6 /* Slingshot-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slingshot-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6ED342BE3C88700FFD7F6 /* SlingshotDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SlingshotDev-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/SlingshotDev-Info.plist"; sourceTree = "<absolute>"; };
+		5EC6ED4A2BE3C8EC00FFD7F6 /* Indian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6ED4B2BE3C8EC00FFD7F6 /* Indian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Indian-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/Indian-Info.plist"; sourceTree = "<absolute>"; };
+		5EC6ED612BE3C94B00FFD7F6 /* Indian-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indian-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6ED622BE3C94B00FFD7F6 /* IndianStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IndianStaging-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/IndianStaging-Info.plist"; sourceTree = "<absolute>"; };
+		5EC6ED782BE3C9B500FFD7F6 /* Indian-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indian-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC6ED792BE3C9B500FFD7F6 /* IndianDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IndianDev-Info.plist"; path = "/Users/dondumadapat/PROJECTS/cog/ios-boilerplate/IndianDev-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353750BD2BDF87AF0021A263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353750FC2BDFB0EC0021A263 /* Alamofire in Frameworks */,
+				353750F62BDFB0C50021A263 /* Kingfisher in Frameworks */,
+				353750F32BDFB02E0021A263 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECCD2BE3C6BD00FFD7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ECCE2BE3C6BD00FFD7F6 /* Alamofire in Frameworks */,
+				5EC6ECCF2BE3C6BD00FFD7F6 /* Kingfisher in Frameworks */,
+				5EC6ECD02BE3C6BD00FFD7F6 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECE42BE3C73600FFD7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ECE52BE3C73600FFD7F6 /* Alamofire in Frameworks */,
+				5EC6ECE62BE3C73600FFD7F6 /* Kingfisher in Frameworks */,
+				5EC6ECE72BE3C73600FFD7F6 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECFB2BE3C81100FFD7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ECFC2BE3C81100FFD7F6 /* Alamofire in Frameworks */,
+				5EC6ECFD2BE3C81100FFD7F6 /* Kingfisher in Frameworks */,
+				5EC6ECFE2BE3C81100FFD7F6 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED122BE3C86E00FFD7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED132BE3C86E00FFD7F6 /* Alamofire in Frameworks */,
+				5EC6ED142BE3C86E00FFD7F6 /* Kingfisher in Frameworks */,
+				5EC6ED152BE3C86E00FFD7F6 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED292BE3C88700FFD7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED2A2BE3C88700FFD7F6 /* Alamofire in Frameworks */,
+				5EC6ED2B2BE3C88700FFD7F6 /* Kingfisher in Frameworks */,
+				5EC6ED2C2BE3C88700FFD7F6 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED402BE3C8EC00FFD7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED412BE3C8EC00FFD7F6 /* Alamofire in Frameworks */,
+				5EC6ED422BE3C8EC00FFD7F6 /* Kingfisher in Frameworks */,
+				5EC6ED432BE3C8EC00FFD7F6 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED572BE3C94B00FFD7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED582BE3C94B00FFD7F6 /* Alamofire in Frameworks */,
+				5EC6ED592BE3C94B00FFD7F6 /* Kingfisher in Frameworks */,
+				5EC6ED5A2BE3C94B00FFD7F6 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED6E2BE3C9B500FFD7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED6F2BE3C9B500FFD7F6 /* Alamofire in Frameworks */,
+				5EC6ED702BE3C9B500FFD7F6 /* Kingfisher in Frameworks */,
+				5EC6ED712BE3C9B500FFD7F6 /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353750B72BDF87AF0021A263 = {
+			isa = PBXGroup;
+			children = (
+				353750C22BDF87AF0021A263 /* polaris */,
+				353750C12BDF87AF0021A263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353750C12BDF87AF0021A263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353750C02BDF87AF0021A263 /* Polaris.app */,
+				5EC6ECD72BE3C6BD00FFD7F6 /* Polaris-Staging.app */,
+				5EC6ECEE2BE3C73600FFD7F6 /* Polaris-Dev.app */,
+				5EC6ED052BE3C81100FFD7F6 /* Slingshot.app */,
+				5EC6ED1C2BE3C86E00FFD7F6 /* Slingshot-Staging.app */,
+				5EC6ED332BE3C88700FFD7F6 /* Slingshot-Dev.app */,
+				5EC6ED4A2BE3C8EC00FFD7F6 /* Indian.app */,
+				5EC6ED612BE3C94B00FFD7F6 /* Indian-Staging.app */,
+				5EC6ED782BE3C9B500FFD7F6 /* Indian-Dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353750C22BDF87AF0021A263 /* polaris */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED862BE3CBB100FFD7F6 /* Config */,
+				353750C72BDF87B10021A263 /* Assets.xcassets */,
+				353750C32BDF87AF0021A263 /* polarisApp.swift */,
+				353750D12BDF88330021A263 /* Modules */,
+				353750D52BDF88F30021A263 /* Resources */,
+				353750D22BDF88D40021A263 /* Utils */,
+				353750D32BDF88D80021A263 /* Vendor */,
+				353750C92BDF87B10021A263 /* Preview Content */,
+			);
+			path = polaris;
+			sourceTree = "<group>";
+		};
+		353750C92BDF87B10021A263 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				353750CA2BDF87B10021A263 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		353750D12BDF88330021A263 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				353750DB2BDF89C30021A263 /* Core */,
+				353750D62BDF89430021A263 /* Map */,
+				353750DC2BDF89C70021A263 /* Shared */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		353750D22BDF88D40021A263 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		353750D32BDF88D80021A263 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		353750D52BDF88F30021A263 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		353750D62BDF89430021A263 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				353750D82BDF89710021A263 /* UI */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		353750D72BDF89680021A263 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				353750DA2BDF89AA0021A263 /* Components */,
+				353750D92BDF897D0021A263 /* Main */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		353750D82BDF89710021A263 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				353750D72BDF89680021A263 /* Scene */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		353750D92BDF897D0021A263 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				353750C52BDF87AF0021A263 /* MapView.swift */,
+				353750DD2BDF8A7B0021A263 /* MapViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		353750DA2BDF89AA0021A263 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		353750DB2BDF89C30021A263 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		353750DC2BDF89C70021A263 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5EC6ED7A2BE3CBB100FFD7F6 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED792BE3C9B500FFD7F6 /* IndianDev-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		5EC6ED7B2BE3CBB100FFD7F6 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED4B2BE3C8EC00FFD7F6 /* Indian-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		5EC6ED7C2BE3CBB100FFD7F6 /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED622BE3C94B00FFD7F6 /* IndianStaging-Info.plist */,
+			);
+			path = Staging;
+			sourceTree = "<group>";
+		};
+		5EC6ED7D2BE3CBB100FFD7F6 /* IND */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED7A2BE3CBB100FFD7F6 /* Dev */,
+				5EC6ED7B2BE3CBB100FFD7F6 /* Prod */,
+				5EC6ED7C2BE3CBB100FFD7F6 /* Staging */,
+			);
+			path = IND;
+			sourceTree = "<group>";
+		};
+		5EC6ED7E2BE3CBB100FFD7F6 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED342BE3C88700FFD7F6 /* SlingshotDev-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		5EC6ED7F2BE3CBB100FFD7F6 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED062BE3C81100FFD7F6 /* Slingshot-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		5EC6ED802BE3CBB100FFD7F6 /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED1D2BE3C86E00FFD7F6 /* SlingshotStaging-Info.plist */,
+			);
+			path = Staging;
+			sourceTree = "<group>";
+		};
+		5EC6ED812BE3CBB100FFD7F6 /* SLG */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED7E2BE3CBB100FFD7F6 /* Dev */,
+				5EC6ED7F2BE3CBB100FFD7F6 /* Prod */,
+				5EC6ED802BE3CBB100FFD7F6 /* Staging */,
+			);
+			path = SLG;
+			sourceTree = "<group>";
+		};
+		5EC6ED822BE3CBB100FFD7F6 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ECEF2BE3C73600FFD7F6 /* PolarisDev-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		5EC6ED832BE3CBB100FFD7F6 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				353750E62BDF8F2A0021A263 /* Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		5EC6ED842BE3CBB100FFD7F6 /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ECD82BE3C6BD00FFD7F6 /* PolarisStaging-Info.plist */,
+			);
+			path = Staging;
+			sourceTree = "<group>";
+		};
+		5EC6ED852BE3CBB100FFD7F6 /* SNORV */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED822BE3CBB100FFD7F6 /* Dev */,
+				5EC6ED832BE3CBB100FFD7F6 /* Prod */,
+				5EC6ED842BE3CBB100FFD7F6 /* Staging */,
+			);
+			path = SNORV;
+			sourceTree = "<group>";
+		};
+		5EC6ED862BE3CBB100FFD7F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6ED7D2BE3CBB100FFD7F6 /* IND */,
+				5EC6ED812BE3CBB100FFD7F6 /* SLG */,
+				5EC6ED852BE3CBB100FFD7F6 /* SNORV */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353750BF2BDF87AF0021A263 /* Polaris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353750CE2BDF87B10021A263 /* Build configuration list for PBXNativeTarget "Polaris" */;
+			buildPhases = (
+				353750BC2BDF87AF0021A263 /* Sources */,
+				353750BD2BDF87AF0021A263 /* Frameworks */,
+				353750BE2BDF87AF0021A263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polaris;
+			packageProductDependencies = (
+				353750F22BDFB02E0021A263 /* MapboxMaps */,
+				353750F52BDFB0C50021A263 /* Kingfisher */,
+				353750FB2BDFB0EC0021A263 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 353750C02BDF87AF0021A263 /* Polaris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6ECC22BE3C6BD00FFD7F6 /* Polaris-Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6ECD42BE3C6BD00FFD7F6 /* Build configuration list for PBXNativeTarget "Polaris-Staging" */;
+			buildPhases = (
+				5EC6ECC92BE3C6BD00FFD7F6 /* Sources */,
+				5EC6ECCD2BE3C6BD00FFD7F6 /* Frameworks */,
+				5EC6ECD12BE3C6BD00FFD7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polaris-Staging";
+			packageProductDependencies = (
+				5EC6ECC32BE3C6BD00FFD7F6 /* MapboxMaps */,
+				5EC6ECC52BE3C6BD00FFD7F6 /* Kingfisher */,
+				5EC6ECC72BE3C6BD00FFD7F6 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 5EC6ECD72BE3C6BD00FFD7F6 /* Polaris-Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6ECD92BE3C73600FFD7F6 /* Polaris-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6ECEB2BE3C73600FFD7F6 /* Build configuration list for PBXNativeTarget "Polaris-Dev" */;
+			buildPhases = (
+				5EC6ECE02BE3C73600FFD7F6 /* Sources */,
+				5EC6ECE42BE3C73600FFD7F6 /* Frameworks */,
+				5EC6ECE82BE3C73600FFD7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polaris-Dev";
+			packageProductDependencies = (
+				5EC6ECDA2BE3C73600FFD7F6 /* MapboxMaps */,
+				5EC6ECDC2BE3C73600FFD7F6 /* Kingfisher */,
+				5EC6ECDE2BE3C73600FFD7F6 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 5EC6ECEE2BE3C73600FFD7F6 /* Polaris-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6ECF02BE3C81100FFD7F6 /* Slingshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6ED022BE3C81100FFD7F6 /* Build configuration list for PBXNativeTarget "Slingshot" */;
+			buildPhases = (
+				5EC6ECF72BE3C81100FFD7F6 /* Sources */,
+				5EC6ECFB2BE3C81100FFD7F6 /* Frameworks */,
+				5EC6ECFF2BE3C81100FFD7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slingshot;
+			packageProductDependencies = (
+				5EC6ECF12BE3C81100FFD7F6 /* MapboxMaps */,
+				5EC6ECF32BE3C81100FFD7F6 /* Kingfisher */,
+				5EC6ECF52BE3C81100FFD7F6 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 5EC6ED052BE3C81100FFD7F6 /* Slingshot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6ED072BE3C86E00FFD7F6 /* Slingshot-Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6ED192BE3C86E00FFD7F6 /* Build configuration list for PBXNativeTarget "Slingshot-Staging" */;
+			buildPhases = (
+				5EC6ED0E2BE3C86E00FFD7F6 /* Sources */,
+				5EC6ED122BE3C86E00FFD7F6 /* Frameworks */,
+				5EC6ED162BE3C86E00FFD7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slingshot-Staging";
+			packageProductDependencies = (
+				5EC6ED082BE3C86E00FFD7F6 /* MapboxMaps */,
+				5EC6ED0A2BE3C86E00FFD7F6 /* Kingfisher */,
+				5EC6ED0C2BE3C86E00FFD7F6 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 5EC6ED1C2BE3C86E00FFD7F6 /* Slingshot-Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6ED1E2BE3C88700FFD7F6 /* Slingshot-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6ED302BE3C88700FFD7F6 /* Build configuration list for PBXNativeTarget "Slingshot-Dev" */;
+			buildPhases = (
+				5EC6ED252BE3C88700FFD7F6 /* Sources */,
+				5EC6ED292BE3C88700FFD7F6 /* Frameworks */,
+				5EC6ED2D2BE3C88700FFD7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slingshot-Dev";
+			packageProductDependencies = (
+				5EC6ED1F2BE3C88700FFD7F6 /* MapboxMaps */,
+				5EC6ED212BE3C88700FFD7F6 /* Kingfisher */,
+				5EC6ED232BE3C88700FFD7F6 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 5EC6ED332BE3C88700FFD7F6 /* Slingshot-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6ED352BE3C8EC00FFD7F6 /* Indian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6ED472BE3C8EC00FFD7F6 /* Build configuration list for PBXNativeTarget "Indian" */;
+			buildPhases = (
+				5EC6ED3C2BE3C8EC00FFD7F6 /* Sources */,
+				5EC6ED402BE3C8EC00FFD7F6 /* Frameworks */,
+				5EC6ED442BE3C8EC00FFD7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Indian;
+			packageProductDependencies = (
+				5EC6ED362BE3C8EC00FFD7F6 /* MapboxMaps */,
+				5EC6ED382BE3C8EC00FFD7F6 /* Kingfisher */,
+				5EC6ED3A2BE3C8EC00FFD7F6 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 5EC6ED4A2BE3C8EC00FFD7F6 /* Indian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6ED4C2BE3C94B00FFD7F6 /* Indian-Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6ED5E2BE3C94B00FFD7F6 /* Build configuration list for PBXNativeTarget "Indian-Staging" */;
+			buildPhases = (
+				5EC6ED532BE3C94B00FFD7F6 /* Sources */,
+				5EC6ED572BE3C94B00FFD7F6 /* Frameworks */,
+				5EC6ED5B2BE3C94B00FFD7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Indian-Staging";
+			packageProductDependencies = (
+				5EC6ED4D2BE3C94B00FFD7F6 /* MapboxMaps */,
+				5EC6ED4F2BE3C94B00FFD7F6 /* Kingfisher */,
+				5EC6ED512BE3C94B00FFD7F6 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 5EC6ED612BE3C94B00FFD7F6 /* Indian-Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC6ED632BE3C9B500FFD7F6 /* Indian-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC6ED752BE3C9B500FFD7F6 /* Build configuration list for PBXNativeTarget "Indian-Dev" */;
+			buildPhases = (
+				5EC6ED6A2BE3C9B500FFD7F6 /* Sources */,
+				5EC6ED6E2BE3C9B500FFD7F6 /* Frameworks */,
+				5EC6ED722BE3C9B500FFD7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Indian-Dev";
+			packageProductDependencies = (
+				5EC6ED642BE3C9B500FFD7F6 /* MapboxMaps */,
+				5EC6ED662BE3C9B500FFD7F6 /* Kingfisher */,
+				5EC6ED682BE3C9B500FFD7F6 /* Alamofire */,
+			);
+			productName = polaris;
+			productReference = 5EC6ED782BE3C9B500FFD7F6 /* Indian-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353750B82BDF87AF0021A263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					353750BF2BDF87AF0021A263 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 353750BB2BDF87AF0021A263 /* Build configuration list for PBXProject "Polaris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353750B72BDF87AF0021A263;
+			packageReferences = (
+				353750F12BDFB02E0021A263 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				353750F42BDFB0C50021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				353750FA2BDFB0EC0021A263 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 353750C12BDF87AF0021A263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353750BF2BDF87AF0021A263 /* Polaris */,
+				5EC6ECC22BE3C6BD00FFD7F6 /* Polaris-Staging */,
+				5EC6ECD92BE3C73600FFD7F6 /* Polaris-Dev */,
+				5EC6ECF02BE3C81100FFD7F6 /* Slingshot */,
+				5EC6ED072BE3C86E00FFD7F6 /* Slingshot-Staging */,
+				5EC6ED1E2BE3C88700FFD7F6 /* Slingshot-Dev */,
+				5EC6ED352BE3C8EC00FFD7F6 /* Indian */,
+				5EC6ED4C2BE3C94B00FFD7F6 /* Indian-Staging */,
+				5EC6ED632BE3C9B500FFD7F6 /* Indian-Dev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353750BE2BDF87AF0021A263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353750CB2BDF87B10021A263 /* Preview Assets.xcassets in Resources */,
+				353750C82BDF87B10021A263 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECD12BE3C6BD00FFD7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ECD22BE3C6BD00FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5EC6ECD32BE3C6BD00FFD7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECE82BE3C73600FFD7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ECE92BE3C73600FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5EC6ECEA2BE3C73600FFD7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECFF2BE3C81100FFD7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED002BE3C81100FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5EC6ED012BE3C81100FFD7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED162BE3C86E00FFD7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED172BE3C86E00FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5EC6ED182BE3C86E00FFD7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED2D2BE3C88700FFD7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED2E2BE3C88700FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5EC6ED2F2BE3C88700FFD7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED442BE3C8EC00FFD7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED452BE3C8EC00FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5EC6ED462BE3C8EC00FFD7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED5B2BE3C94B00FFD7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED5C2BE3C94B00FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5EC6ED5D2BE3C94B00FFD7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED722BE3C9B500FFD7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED732BE3C9B500FFD7F6 /* Preview Assets.xcassets in Resources */,
+				5EC6ED742BE3C9B500FFD7F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353750BC2BDF87AF0021A263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353750C62BDF87AF0021A263 /* MapView.swift in Sources */,
+				353750C42BDF87AF0021A263 /* polarisApp.swift in Sources */,
+				353750DE2BDF8A7B0021A263 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECC92BE3C6BD00FFD7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ECCA2BE3C6BD00FFD7F6 /* MapView.swift in Sources */,
+				5EC6ECCB2BE3C6BD00FFD7F6 /* polarisApp.swift in Sources */,
+				5EC6ECCC2BE3C6BD00FFD7F6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECE02BE3C73600FFD7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ECE12BE3C73600FFD7F6 /* MapView.swift in Sources */,
+				5EC6ECE22BE3C73600FFD7F6 /* polarisApp.swift in Sources */,
+				5EC6ECE32BE3C73600FFD7F6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ECF72BE3C81100FFD7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ECF82BE3C81100FFD7F6 /* MapView.swift in Sources */,
+				5EC6ECF92BE3C81100FFD7F6 /* polarisApp.swift in Sources */,
+				5EC6ECFA2BE3C81100FFD7F6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED0E2BE3C86E00FFD7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED0F2BE3C86E00FFD7F6 /* MapView.swift in Sources */,
+				5EC6ED102BE3C86E00FFD7F6 /* polarisApp.swift in Sources */,
+				5EC6ED112BE3C86E00FFD7F6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED252BE3C88700FFD7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED262BE3C88700FFD7F6 /* MapView.swift in Sources */,
+				5EC6ED272BE3C88700FFD7F6 /* polarisApp.swift in Sources */,
+				5EC6ED282BE3C88700FFD7F6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED3C2BE3C8EC00FFD7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED3D2BE3C8EC00FFD7F6 /* MapView.swift in Sources */,
+				5EC6ED3E2BE3C8EC00FFD7F6 /* polarisApp.swift in Sources */,
+				5EC6ED3F2BE3C8EC00FFD7F6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED532BE3C94B00FFD7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED542BE3C94B00FFD7F6 /* MapView.swift in Sources */,
+				5EC6ED552BE3C94B00FFD7F6 /* polarisApp.swift in Sources */,
+				5EC6ED562BE3C94B00FFD7F6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC6ED6A2BE3C9B500FFD7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC6ED6B2BE3C9B500FFD7F6 /* MapView.swift in Sources */,
+				5EC6ED6C2BE3C9B500FFD7F6 /* polarisApp.swift in Sources */,
+				5EC6ED6D2BE3C9B500FFD7F6 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		353750CC2BDF87B10021A263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		353750CD2BDF87B10021A263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		353750CF2BDF87B10021A263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = polaris/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Polaris®";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.ORVTrails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353750D02BDF87B10021A263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = polaris/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Polaris®";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.ORVTrails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6ECD52BE3C6BD00FFD7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Polaris copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Polaris®-Staging";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.ORVTrails.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6ECD62BE3C6BD00FFD7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Polaris copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Polaris®-Staging";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.ORVTrails.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6ECEC2BE3C73600FFD7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Polaris-Staging copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Polaris®-Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.ORVTrails.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6ECED2BE3C73600FFD7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Polaris-Staging copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Polaris®-Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.ORVTrails.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6ED032BE3C81100FFD7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Polaris copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Slingshot®";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.slingshot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6ED042BE3C81100FFD7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Polaris copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Slingshot®";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.slingshot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6ED1A2BE3C86E00FFD7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slingshot copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Slingshot®-Staging";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.slingshot.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6ED1B2BE3C86E00FFD7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slingshot copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Slingshot®-Staging";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.slingshot.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6ED312BE3C88700FFD7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slingshot-Staging copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Slingshot®-Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.slingshot.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6ED322BE3C88700FFD7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slingshot-Staging copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Slingshot®-Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.slingshot.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6ED482BE3C8EC00FFD7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slingshot copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Indian Motorcycle®";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.IndianRides;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6ED492BE3C8EC00FFD7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slingshot copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Indian Motorcycle®";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.IndianRides;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6ED5F2BE3C94B00FFD7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Indian copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Indian Motorcycle®-Staging";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.IndianRides.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6ED602BE3C94B00FFD7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Indian copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Indian Motorcycle®-Staging";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.IndianRides.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC6ED762BE3C9B500FFD7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Indian-Staging copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Indian Motorcycle®-Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.IndianRides.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC6ED772BE3C9B500FFD7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polaris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Indian-Staging copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Indian Motorcycle®-Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarisindustries.IndianRides.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353750BB2BDF87AF0021A263 /* Build configuration list for PBXProject "Polaris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353750CC2BDF87B10021A263 /* Debug */,
+				353750CD2BDF87B10021A263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353750CE2BDF87B10021A263 /* Build configuration list for PBXNativeTarget "Polaris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353750CF2BDF87B10021A263 /* Debug */,
+				353750D02BDF87B10021A263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6ECD42BE3C6BD00FFD7F6 /* Build configuration list for PBXNativeTarget "Polaris-Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6ECD52BE3C6BD00FFD7F6 /* Debug */,
+				5EC6ECD62BE3C6BD00FFD7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6ECEB2BE3C73600FFD7F6 /* Build configuration list for PBXNativeTarget "Polaris-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6ECEC2BE3C73600FFD7F6 /* Debug */,
+				5EC6ECED2BE3C73600FFD7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6ED022BE3C81100FFD7F6 /* Build configuration list for PBXNativeTarget "Slingshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6ED032BE3C81100FFD7F6 /* Debug */,
+				5EC6ED042BE3C81100FFD7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6ED192BE3C86E00FFD7F6 /* Build configuration list for PBXNativeTarget "Slingshot-Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6ED1A2BE3C86E00FFD7F6 /* Debug */,
+				5EC6ED1B2BE3C86E00FFD7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6ED302BE3C88700FFD7F6 /* Build configuration list for PBXNativeTarget "Slingshot-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6ED312BE3C88700FFD7F6 /* Debug */,
+				5EC6ED322BE3C88700FFD7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6ED472BE3C8EC00FFD7F6 /* Build configuration list for PBXNativeTarget "Indian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6ED482BE3C8EC00FFD7F6 /* Debug */,
+				5EC6ED492BE3C8EC00FFD7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6ED5E2BE3C94B00FFD7F6 /* Build configuration list for PBXNativeTarget "Indian-Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6ED5F2BE3C94B00FFD7F6 /* Debug */,
+				5EC6ED602BE3C94B00FFD7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC6ED752BE3C9B500FFD7F6 /* Build configuration list for PBXNativeTarget "Indian-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC6ED762BE3C9B500FFD7F6 /* Debug */,
+				5EC6ED772BE3C9B500FFD7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		353750F12BDFB02E0021A263 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		353750F42BDFB0C50021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		353750FA2BDFB0EC0021A263 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5EC6ECC42BE3C6BD00FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		5EC6ECC62BE3C6BD00FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		5EC6ECC82BE3C6BD00FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5EC6ECDB2BE3C73600FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		5EC6ECDD2BE3C73600FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		5EC6ECDF2BE3C73600FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5EC6ECF22BE3C81100FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		5EC6ECF42BE3C81100FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		5EC6ECF62BE3C81100FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5EC6ED092BE3C86E00FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		5EC6ED0B2BE3C86E00FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		5EC6ED0D2BE3C86E00FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5EC6ED202BE3C88700FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		5EC6ED222BE3C88700FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		5EC6ED242BE3C88700FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5EC6ED372BE3C8EC00FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		5EC6ED392BE3C8EC00FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		5EC6ED3B2BE3C8EC00FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5EC6ED4E2BE3C94B00FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		5EC6ED502BE3C94B00FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		5EC6ED522BE3C94B00FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		5EC6ED652BE3C9B500FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+		5EC6ED672BE3C9B500FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		5EC6ED692BE3C9B500FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		353750F22BDFB02E0021A263 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353750F12BDFB02E0021A263 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		353750F52BDFB0C50021A263 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353750F42BDFB0C50021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		353750FB2BDFB0EC0021A263 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353750FA2BDFB0EC0021A263 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5EC6ECC32BE3C6BD00FFD7F6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECC42BE3C6BD00FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		5EC6ECC52BE3C6BD00FFD7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECC62BE3C6BD00FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5EC6ECC72BE3C6BD00FFD7F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECC82BE3C6BD00FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5EC6ECDA2BE3C73600FFD7F6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECDB2BE3C73600FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		5EC6ECDC2BE3C73600FFD7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECDD2BE3C73600FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5EC6ECDE2BE3C73600FFD7F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECDF2BE3C73600FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5EC6ECF12BE3C81100FFD7F6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECF22BE3C81100FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		5EC6ECF32BE3C81100FFD7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECF42BE3C81100FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5EC6ECF52BE3C81100FFD7F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ECF62BE3C81100FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5EC6ED082BE3C86E00FFD7F6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED092BE3C86E00FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		5EC6ED0A2BE3C86E00FFD7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED0B2BE3C86E00FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5EC6ED0C2BE3C86E00FFD7F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED0D2BE3C86E00FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5EC6ED1F2BE3C88700FFD7F6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED202BE3C88700FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		5EC6ED212BE3C88700FFD7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED222BE3C88700FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5EC6ED232BE3C88700FFD7F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED242BE3C88700FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5EC6ED362BE3C8EC00FFD7F6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED372BE3C8EC00FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		5EC6ED382BE3C8EC00FFD7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED392BE3C8EC00FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5EC6ED3A2BE3C8EC00FFD7F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED3B2BE3C8EC00FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5EC6ED4D2BE3C94B00FFD7F6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED4E2BE3C94B00FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		5EC6ED4F2BE3C94B00FFD7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED502BE3C94B00FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5EC6ED512BE3C94B00FFD7F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED522BE3C94B00FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5EC6ED642BE3C9B500FFD7F6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED652BE3C9B500FFD7F6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		5EC6ED662BE3C9B500FFD7F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED672BE3C9B500FFD7F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5EC6ED682BE3C9B500FFD7F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EC6ED692BE3C9B500FFD7F6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 353750B82BDF87AF0021A263 /* Project object */;
+}
