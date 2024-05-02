@@ -18,7 +18,7 @@
                BlueprintIdentifier = "5EC6ECC22BE3C6BD00FFD7F6"
                BuildableName = "Polaris-Staging.app"
                BlueprintName = "Polaris-Staging"
-               ReferencedContainer = "container:polaris.xcodeproj">
+               ReferencedContainer = "container:Polaris.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "5EC6ECC22BE3C6BD00FFD7F6"
             BuildableName = "Polaris-Staging.app"
             BlueprintName = "Polaris-Staging"
-            ReferencedContainer = "container:polaris.xcodeproj">
+            ReferencedContainer = "container:Polaris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "5EC6ECC22BE3C6BD00FFD7F6"
             BuildableName = "Polaris-Staging.app"
             BlueprintName = "Polaris-Staging"
-            ReferencedContainer = "container:polaris.xcodeproj">
+            ReferencedContainer = "container:Polaris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

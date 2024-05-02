@@ -18,7 +18,7 @@
                BlueprintIdentifier = "5EC6ECF02BE3C81100FFD7F6"
                BuildableName = "Slingshot.app"
                BlueprintName = "Slingshot"
-               ReferencedContainer = "container:polaris.xcodeproj">
+               ReferencedContainer = "container:Polaris.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "5EC6ECF02BE3C81100FFD7F6"
             BuildableName = "Slingshot.app"
             BlueprintName = "Slingshot"
-            ReferencedContainer = "container:polaris.xcodeproj">
+            ReferencedContainer = "container:Polaris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "5EC6ECF02BE3C81100FFD7F6"
             BuildableName = "Slingshot.app"
             BlueprintName = "Slingshot"
-            ReferencedContainer = "container:polaris.xcodeproj">
+            ReferencedContainer = "container:Polaris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

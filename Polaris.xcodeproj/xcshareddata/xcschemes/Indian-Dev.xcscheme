@@ -18,7 +18,7 @@
                BlueprintIdentifier = "5EC6ED632BE3C9B500FFD7F6"
                BuildableName = "Indian-Dev.app"
                BlueprintName = "Indian-Dev"
-               ReferencedContainer = "container:polaris.xcodeproj">
+               ReferencedContainer = "container:Polaris.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "5EC6ED632BE3C9B500FFD7F6"
             BuildableName = "Indian-Dev.app"
             BlueprintName = "Indian-Dev"
-            ReferencedContainer = "container:polaris.xcodeproj">
+            ReferencedContainer = "container:Polaris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "5EC6ED632BE3C9B500FFD7F6"
             BuildableName = "Indian-Dev.app"
             BlueprintName = "Indian-Dev"
-            ReferencedContainer = "container:polaris.xcodeproj">
+            ReferencedContainer = "container:Polaris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

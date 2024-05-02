@@ -18,7 +18,7 @@
                BlueprintIdentifier = "353750BF2BDF87AF0021A263"
                BuildableName = "Polaris.app"
                BlueprintName = "Polaris"
-               ReferencedContainer = "container:polaris.xcodeproj">
+               ReferencedContainer = "container:Polaris.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "353750BF2BDF87AF0021A263"
             BuildableName = "Polaris.app"
             BlueprintName = "Polaris"
-            ReferencedContainer = "container:polaris.xcodeproj">
+            ReferencedContainer = "container:Polaris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "353750BF2BDF87AF0021A263"
             BuildableName = "Polaris.app"
             BlueprintName = "Polaris"
-            ReferencedContainer = "container:polaris.xcodeproj">
+            ReferencedContainer = "container:Polaris.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
