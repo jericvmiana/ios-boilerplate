@@ -1,5 +1,5 @@
 {
-  "originHash" : "7565bb6f4ee458668a4418e82050e1dfa2f7ac83cec784725dc71dd85fda66f1",
+  "originHash" : "09ef1bbba7700036541ae09f29266ccc26f6c5f852d0b411e6c02c5fd3d39df2",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -11,12 +11,39 @@
       }
     },
     {
+      "identity" : "auth0.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/auth0/Auth0.swift.git",
+      "state" : {
+        "revision" : "ecd6fbd0c00d2144d9275a6dbceb213afc7f2a2d",
+        "version" : "2.7.0"
+      }
+    },
+    {
+      "identity" : "jwtdecode.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/auth0/JWTDecode.swift.git",
+      "state" : {
+        "revision" : "58af7278797871e460d79496621b3e5366b865b2",
+        "version" : "3.1.0"
+      }
+    },
+    {
       "identity" : "kingfisher",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/onevcat/Kingfisher.git",
       "state" : {
         "revision" : "5b92f029fab2cce44386d28588098b5be0824ef5",
         "version" : "7.11.0"
+      }
+    },
+    {
+      "identity" : "localytics-swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/localytics/Localytics-swiftpm.git",
+      "state" : {
+        "revision" : "99d95f7e8a8b4ae53142b5fad54e882eb440f4f3",
+        "version" : "6.3.0"
       }
     },
     {
@@ -44,6 +71,42 @@
       "state" : {
         "revision" : "935c658a4d4d454de0e81e0b49ed291bd2c756a9",
         "version" : "11.3.0"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "4d815c6e6883bfdcb67cf755d0f0f29a4b399ea7",
+        "version" : "14.5.2"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "revision" : "abbe849262c165dbd33b2d1c15c0f04783eb3311",
+        "version" : "10.49.3"
+      }
+    },
+    {
+      "identity" : "sentry-cocoa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/getsentry/sentry-cocoa.git",
+      "state" : {
+        "revision" : "82af013792dca3784a2dc5e7f975159fb9d263b3",
+        "version" : "8.25.0"
+      }
+    },
+    {
+      "identity" : "simplekeychain",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/auth0/SimpleKeychain.git",
+      "state" : {
+        "revision" : "f082494aab8056139a4fe234c920a9f92f681aff",
+        "version" : "1.1.0"
       }
     },
     {

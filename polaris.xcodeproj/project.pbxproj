@@ -15,6 +15,10 @@
 		353750F32BDFB02E0021A263 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 353750F22BDFB02E0021A263 /* MapboxMaps */; };
 		353750F62BDFB0C50021A263 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 353750F52BDFB0C50021A263 /* Kingfisher */; };
 		353750FC2BDFB0EC0021A263 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 353750FB2BDFB0EC0021A263 /* Alamofire */; };
+		358B08ED2BE3BD800092CDD0 /* Localytics in Frameworks */ = {isa = PBXBuildFile; productRef = 358B08EC2BE3BD800092CDD0 /* Localytics */; };
+		358B08F02BE3BDDC0092CDD0 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 358B08EF2BE3BDDC0092CDD0 /* Auth0 */; };
+		358B08FF2BE3BF260092CDD0 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 358B08FE2BE3BF260092CDD0 /* RealmSwift */; };
+		358B09022BE3BF940092CDD0 /* SentrySwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 358B09012BE3BF940092CDD0 /* SentrySwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +36,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358B08FF2BE3BF260092CDD0 /* RealmSwift in Frameworks */,
+				358B09022BE3BF940092CDD0 /* SentrySwiftUI in Frameworks */,
 				353750FC2BDFB0EC0021A263 /* Alamofire in Frameworks */,
+				358B08ED2BE3BD800092CDD0 /* Localytics in Frameworks */,
 				353750F62BDFB0C50021A263 /* Kingfisher in Frameworks */,
+				358B08F02BE3BDDC0092CDD0 /* Auth0 in Frameworks */,
 				353750F32BDFB02E0021A263 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +202,10 @@
 				353750F22BDFB02E0021A263 /* MapboxMaps */,
 				353750F52BDFB0C50021A263 /* Kingfisher */,
 				353750FB2BDFB0EC0021A263 /* Alamofire */,
+				358B08EC2BE3BD800092CDD0 /* Localytics */,
+				358B08EF2BE3BDDC0092CDD0 /* Auth0 */,
+				358B08FE2BE3BF260092CDD0 /* RealmSwift */,
+				358B09012BE3BF940092CDD0 /* SentrySwiftUI */,
 			);
 			productName = polaris;
 			productReference = 353750C02BDF87AF0021A263 /* polaris.app */;
@@ -227,6 +239,10 @@
 				353750F12BDFB02E0021A263 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
 				353750F42BDFB0C50021A263 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				353750FA2BDFB0EC0021A263 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				358B08EB2BE3BD800092CDD0 /* XCRemoteSwiftPackageReference "Localytics-swiftpm" */,
+				358B08EE2BE3BDDB0092CDD0 /* XCRemoteSwiftPackageReference "Auth0.swift" */,
+				358B08FD2BE3BF260092CDD0 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				358B09002BE3BF940092CDD0 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
 			);
 			productRefGroup = 353750C12BDF87AF0021A263 /* Products */;
 			projectDirPath = "";
@@ -488,6 +504,38 @@
 				minimumVersion = 5.9.1;
 			};
 		};
+		358B08EB2BE3BD800092CDD0 /* XCRemoteSwiftPackageReference "Localytics-swiftpm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/localytics/Localytics-swiftpm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+		358B08EE2BE3BDDB0092CDD0 /* XCRemoteSwiftPackageReference "Auth0.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
+		358B08FD2BE3BF260092CDD0 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.49.3;
+			};
+		};
+		358B09002BE3BF940092CDD0 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.25.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -505,6 +553,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 353750FA2BDFB0EC0021A263 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		358B08EC2BE3BD800092CDD0 /* Localytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 358B08EB2BE3BD800092CDD0 /* XCRemoteSwiftPackageReference "Localytics-swiftpm" */;
+			productName = Localytics;
+		};
+		358B08EF2BE3BDDC0092CDD0 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 358B08EE2BE3BDDB0092CDD0 /* XCRemoteSwiftPackageReference "Auth0.swift" */;
+			productName = Auth0;
+		};
+		358B08FE2BE3BF260092CDD0 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 358B08FD2BE3BF260092CDD0 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		358B09012BE3BF940092CDD0 /* SentrySwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 358B09002BE3BF940092CDD0 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = SentrySwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
